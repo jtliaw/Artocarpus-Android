@@ -1,2 +1,0 @@
-# Artocarpus-Android
-Artocarpus-Android
