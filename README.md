@@ -96,3 +96,21 @@ App 主界面最下面有直达这些设置页的按钮。
 4. 传到手机安装（需要允许「安装未知应用」）
 
 ## 📁 项目结构
+
+app/src/main/java/com/jtliaw/screentranslator/
+├── MainActivity.kt 设置界面
+├── TranslateService.kt 悬浮圆点、框选、截屏、译文浮窗
+├── Gemini.kt Gemini 请求与提示词
+├── Ocr.kt 离线 OCR 与离线翻译（ML Kit）
+└── Store.kt 设置、语言列表、翻译历史
+
+
+## 🙏 致谢
+
+- [Google Gemini](https://ai.google.dev/)
+- [Google ML Kit](https://developers.google.com/ml-kit)
+- 桌面版：[Artocarpus](https://github.com/jtliaw/Artocarpus)
+
+## 📄 授权
+
+MIT License
