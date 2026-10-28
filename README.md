@@ -73,7 +73,7 @@ Artocarpus Translate 是 [Artocarpus](https://github.com/jtliaw/Artocarpus) 桌�
 - 本 App 不收集任何数据，不含广告
 
 ## 📱 荣耀 / MagicOS 设置
-
+实在不了解的系统请询问AI！
 荣耀系统对后台管得比较严，悬浮窗软件容易被关掉，建议在设置里给本 App：
 
 - ✅ 允许 **显示在其他应用的上层**
