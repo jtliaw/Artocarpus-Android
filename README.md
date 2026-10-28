@@ -18,7 +18,7 @@
 ---
 注意！
 62个防毒网站完全没有病毒,自己可以到这一个网址看一看：https://www.virustotal.com/gui/home/upload
-
+---
 ## ✨ 这是什么？
 
 Artocarpus Translate 是 [Artocarpus](https://github.com/jtliaw/Artocarpus) 桌面版屏幕翻译的手机版。
