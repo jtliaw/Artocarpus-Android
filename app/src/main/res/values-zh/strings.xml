@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_engine">翻译方式</string>
+    <string name="engine_gemini">Gemini AI（任意语言，需要 API 密钥）</string>
+    <string name="engine_ocr">OCR 离线（仅英文，免费，无需密钥）</string>
+    <string name="ocr_note">OCR 只能识别英文。第一次使用需要联网下载翻译模型（约 30MB），之后完全离线。OCR 不区分简繁体，译成中文时统一为简体。</string>
+    <string name="lbl_target">译文语言</string>
+    <string name="lbl_api_key">Gemini API 密钥（每人用自己的，aistudio.google.com/app/apikey 免费申请）</string>
+    <string name="lbl_source">原文语言</string>
+    <string name="auto_detect">自动识别</string>
+    <string name="lbl_res">图片精度（low 最省额度）</string>
+    <string name="lbl_model">模型</string>
+    <string name="lbl_hide">译文自动消失时间</string>
+    <string name="seconds_fmt">%1$d 秒</string>
+    <string name="hide_never">不自动消失</string>
+    <string name="lbl_font">译文字号</string>
+    <string name="chk_tap">点击蓝色框就重新翻译（这次点击不会传给游戏；关掉则只用长按叶子圆点里的“重译”）</string>
+    <string name="lbl_start">开始</string>
+    <string name="btn_start">启动悬浮翻译</string>
+    <string name="btn_stop">停止悬浮翻译</string>
+    <string name="btn_history">翻译历史</string>
+    <string name="not_running">没有在运行</string>
+    <string name="lbl_bg">荣耀 / MagicOS 防杀后台</string>
+    <string name="bg_note">如果“显示在其他应用上层”的开关打不开：进入应用信息 → 右上角 ⋮ → 允许受限制的设置，然后再试一次。</string>
+    <string name="btn_app_settings">打开本 App 的系统设置页（悬浮窗、自启动、电池）</string>
+    <string name="btn_battery">电池优化设置（把本 App 设为“不受限制/不优化”）</string>
+    <string name="toast_need_key">Gemini 模式需要先填 API 密钥（或改用 OCR）</string>
+    <string name="toast_need_overlay">请允许“显示在其他应用上层”，然后回来再点一次启动</string>
+    <string name="toast_no_capture">没有授权截屏</string>
+    <string name="history_title">翻译历史（最近 100 条）</string>
+    <string name="history_empty">还没有记录</string>
+    <string name="original">原文：</string>
+    <string name="translation">译文：</string>
+    <string name="close">关闭</string>
+    <string name="clear">清空</string>
+
+    <string name="err_no_projection">没有拿到截屏授权</string>
+    <string name="start_failed">启动失败：%1$s</string>
+    <string name="notif_text">点叶子圆点开始框选，长按有更多选项</string>
+    <string name="exit">退出</string>
+    <string name="retranslate">重译</string>
+    <string name="switched_gemini">已切换：Gemini AI（任意语言）</string>
+    <string name="switched_ocr">已切换：OCR 离线（仅英文）</string>
+    <string name="select_hint">拖动框住要翻译的文字（再点一下叶子关闭）</string>
+    <string name="toast_select_first">先点叶子圆点选择区域</string>
+    <string name="toast_rotated">屏幕方向变了，请重新点叶子框选</string>
+    <string name="translating">翻译中…</string>
+    <string name="err_no_frame">还没有截到画面，请稍后再试</string>
+    <string name="err_no_key">还没有填 API 密钥。回到 App 填写，或长按叶子圆点切换到 OCR（免费，仅英文）</string>
+    <string name="maybe_failed">⚠ 可能没翻译成功，可点蓝框重试</string>
+    <string name="error_fmt">错误：%1$s</string>
+    <string name="no_text">（未识别到文字）</string>
+    <string name="err_400">请求被拒绝（400）：模型名称可能写错，或模型不支持看图。</string>
+    <string name="err_401">密钥无效（401）：请检查 API 密钥是否填对，有没有多余空格。</string>
+    <string name="err_403">没有权限（403）：密钥权限不足，或该地区/账号不能使用此模型。</string>
+    <string name="err_404">找不到（404）：请检查模型名称是否正确。</string>
+    <string name="err_429">请求太频繁或今日免费额度用完（429）：稍后再试。</string>
+    <string name="err_server">服务器返回错误（%1$d）</string>
+    <string name="err_blocked">没有返回内容（可能被安全策略拦截）</string>
+    <string name="err_empty">没有返回内容</string>
+    <string name="err_model_download">下载翻译模型失败：第一次使用需要联网，请连上 Wi-Fi 后重试。</string>
+    <string name="err_ocr">OCR 失败：%1$s</string>
+
+    <string name="lang_zh_cn">简体中文</string>
+    <string name="lang_zh_tw">繁體中文</string>
+    <string name="lang_en">English 英语</string>
+    <string name="lang_ja">日本語 日语</string>
+    <string name="lang_ko">한국어 韩语</string>
+    <string name="lang_ms">Bahasa Melayu 马来语</string>
+    <string name="lang_id">Bahasa Indonesia 印尼语</string>
+    <string name="lang_es">Español 西班牙语</string>
+    <string name="lang_fr">Français 法语</string>
+    <string name="lang_de">Deutsch 德语</string>
+
+    <string name="protect_title">受保护的应用（不翻译）</string>
+    <string name="protect_note">这些应用在最前面时，叶子圆点不会截图，也不会翻译。需要打开“使用情况访问”权限，本 App 才能知道现在屏幕上是哪个应用。大多数银行 App 本来就禁止截屏，这份名单是多加一层保护。按名字判断只是猜测，不可能覆盖全世界的银行，请在下面自己添加。</string>
+    <string name="chk_protect_auto">同时保护名字像银行 / 支付 / 钱包的应用</string>
+    <string name="btn_choose_apps">选择受保护的应用…</string>
+    <string name="dlg_choose_title">选择要保护的应用（🔒 = 按名字自动保护）</string>
+    <string name="btn_usage">授权“使用情况访问”（保护功能需要）</string>
+    <string name="usage_on">使用情况访问：已开启 ✔</string>
+    <string name="usage_off">使用情况访问：未开启 — 开启之前保护功能不会生效</string>
+    <string name="protected_app">这个应用受保护，这里不翻译</string>
+</resources>

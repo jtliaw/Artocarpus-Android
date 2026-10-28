@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_engine">Translation method</string>
+    <string name="engine_gemini">Gemini AI (any language, needs an API key)</string>
+    <string name="engine_ocr">Offline OCR (English only, free, no key needed)</string>
+    <string name="ocr_note">OCR reads English only. The first use needs an internet connection to download the translation model (about 30 MB); after that it works fully offline. OCR does not distinguish Simplified and Traditional Chinese — Chinese output is always Simplified.</string>
+    <string name="lbl_target">Translate into</string>
+    <string name="lbl_api_key">Gemini API key (use your own — get one free at aistudio.google.com/app/apikey)</string>
+    <string name="lbl_source">Source language</string>
+    <string name="auto_detect">Auto-detect</string>
+    <string name="lbl_res">Image detail (low uses the least quota)</string>
+    <string name="lbl_model">Model</string>
+    <string name="lbl_hide">Auto-hide translation after</string>
+    <string name="seconds_fmt">%1$d seconds</string>
+    <string name="hide_never">Never</string>
+    <string name="lbl_font">Translation text size</string>
+    <string name="chk_tap">Tap the blue frame to translate again (that tap will not reach the game; if turned off, use “Retranslate” from the long-press menu)</string>
+    <string name="lbl_start">Start</string>
+    <string name="btn_start">Start floating translator</string>
+    <string name="btn_stop">Stop floating translator</string>
+    <string name="btn_history">Translation history</string>
+    <string name="not_running">Not running</string>
+    <string name="lbl_bg">Keep running in the background (Honor / MagicOS)</string>
+    <string name="bg_note">If the “Display over other apps” switch cannot be turned on: open App info, tap ⋮ (top right), choose “Allow restricted settings”, then try again.</string>
+    <string name="btn_app_settings">Open this app\'s system settings (overlay, auto-start, battery)</string>
+    <string name="btn_battery">Battery optimization (set to “Unrestricted / Don\'t optimize”)</string>
+    <string name="toast_need_key">Gemini mode needs an API key first (or switch to OCR)</string>
+    <string name="toast_need_overlay">Please allow “Display over other apps”, then come back and tap Start again</string>
+    <string name="toast_no_capture">Screen capture was not allowed</string>
+    <string name="history_title">Translation history (latest 100)</string>
+    <string name="history_empty">No records yet</string>
+    <string name="original">Original: </string>
+    <string name="translation">Translation: </string>
+    <string name="close">Close</string>
+    <string name="clear">Clear</string>
+
+    <string name="err_no_projection">Screen capture permission was not received</string>
+    <string name="start_failed">Failed to start: %1$s</string>
+    <string name="notif_text">Tap the leaf dot to select an area; long-press for more options</string>
+    <string name="exit">Exit</string>
+    <string name="retranslate">Retranslate</string>
+    <string name="switched_gemini">Switched to Gemini AI (any language)</string>
+    <string name="switched_ocr">Switched to offline OCR (English only)</string>
+    <string name="select_hint">Drag to frame the text to translate (tap the leaf again to close)</string>
+    <string name="toast_select_first">Tap the leaf dot to select an area first</string>
+    <string name="toast_rotated">Screen orientation changed — tap the leaf to select again</string>
+    <string name="translating">Translating…</string>
+    <string name="err_no_frame">No screen image captured yet, please try again</string>
+    <string name="err_no_key">No API key set. Enter it in the app, or long-press the leaf dot and switch to OCR (free, English only)</string>
+    <string name="maybe_failed">⚠ May not have been translated — tap the blue frame to retry</string>
+    <string name="error_fmt">Error: %1$s</string>
+    <string name="no_text">(No text recognized)</string>
+    <string name="err_400">Request rejected (400): the model name may be wrong, or the model cannot read images.</string>
+    <string name="err_401">Invalid key (401): check that the API key is correct, with no extra spaces.</string>
+    <string name="err_403">Permission denied (403): the key lacks permission, or this model is not available in your region or account.</string>
+    <string name="err_404">Not found (404): check the model name.</string>
+    <string name="err_429">Too many requests, or today\'s free quota is used up (429): try again later.</string>
+    <string name="err_server">Server error (%1$d)</string>
+    <string name="err_blocked">No content returned (possibly blocked by safety filters)</string>
+    <string name="err_empty">No content returned</string>
+    <string name="err_model_download">Could not download the translation model. The first use needs internet — connect to Wi-Fi and try again.</string>
+    <string name="err_ocr">OCR failed: %1$s</string>
+
+    <string name="lang_zh_cn">简体中文 (Simplified Chinese)</string>
+    <string name="lang_zh_tw">繁體中文 (Traditional Chinese)</string>
+    <string name="lang_en">English</string>
+    <string name="lang_ja">日本語 (Japanese)</string>
+    <string name="lang_ko">한국어 (Korean)</string>
+    <string name="lang_ms">Bahasa Melayu (Malay)</string>
+    <string name="lang_id">Bahasa Indonesia (Indonesian)</string>
+    <string name="lang_es">Español (Spanish)</string>
+    <string name="lang_fr">Français (French)</string>
+    <string name="lang_de">Deutsch (German)</string>
+
+    <string name="protect_title">Protected apps (never translated)</string>
+    <string name="protect_note">While one of these apps is in front, the leaf dot will not capture or translate anything. This needs “Usage access” so the app can tell which app is on screen. Most banking apps already block screenshots, and this list is a second layer. The name check is only a guess and cannot cover every bank in the world, so add your own apps below.</string>
+    <string name="chk_protect_auto">Also protect apps whose name looks like banking / payment / wallet</string>
+    <string name="btn_choose_apps">Choose protected apps…</string>
+    <string name="dlg_choose_title">Choose apps to protect (🔒 = protected by name)</string>
+    <string name="btn_usage">Grant Usage access (needed for protection)</string>
+    <string name="usage_on">Usage access: ON ✔</string>
+    <string name="usage_off">Usage access: OFF — protection cannot work until you turn it on</string>
+    <string name="protected_app">This app is protected — translation is off here</string>
+</resources>
