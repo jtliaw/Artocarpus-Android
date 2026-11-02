@@ -72,6 +72,16 @@ Artocarpus Translate 是 [Artocarpus](https://github.com/jtliaw/Artocarpus) 桌�
 - 使用 Gemini 时，框选区域的截图会发送给 Google Gemini；OCR 模式的识别和翻译都在手机上完成
 - 本 App 不收集任何数据，不含广告
 
+## ## 声明
+
+本项目是独立的个人项目，与 Google LLC 没有关联，也未获得其认可。
+Google、Gemini、ML Kit 是 Google LLC 的商标。
+
+使用 Gemini 模式时，你框选的截图会发送到 Google 的 Gemini API，
+请使用你自己的 API 密钥，并遵守 Google 现行的 Gemini API 服务条款。
+免费额度下，Google 可能会使用提交的内容来改进其产品，
+如果介意，请改用 OCR 离线模式，或使用付费方案。
+
 ## 实在不了解的系统请询问AI
 ## 📱 荣耀 / MagicOS 设置
 荣耀系统对后台管得比较严，悬浮窗软件容易被关掉，建议在设置里给本 App：
