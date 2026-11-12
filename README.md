@@ -17,7 +17,7 @@
 
 ---
 注意！
-62个防毒网站完全没有病毒,自己可以到这一个网址看一看：https://www.virustotal.com/gui/home/upload
+没有病毒,自己可以到这一个网址看一看：https://www.virustotal.com/gui/home/upload
 ---
 ## ✨ 这是什么？
 
